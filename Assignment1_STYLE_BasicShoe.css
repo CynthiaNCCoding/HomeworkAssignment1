@@ -1,3 +1,14 @@
 .Orange_Block {
     background: orange;
+    width: 1000px;
+}
+
+.Orange_Block h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+body {
+  font-family: sans-serif;
 }
