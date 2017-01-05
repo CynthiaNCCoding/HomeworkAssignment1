@@ -3,6 +3,8 @@
     width: 1000px;
     padding-left: 200px;
     padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
 .Orange_Block h2 {
@@ -34,7 +36,7 @@
 
 
 .BuyNowButton {
-    color: rgb(153, 31, 0);
+    color: rgb(250, 81, 43);
     background-color: white;
     display: inline-block;
     font-size: 36px;
@@ -54,7 +56,7 @@
     color: white;
     height: 35px;
     display: inline-block;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 .price .small {
@@ -90,6 +92,8 @@ body {
 
 .Logo {
   width: 70px;
+  padding-top: 18px;
+  padding-bottom: 5px;
 }
 
 .account_menu .item {
@@ -119,4 +123,9 @@ body {
 .sneaker_names {
     color: white;
     font-size: 35px;
+}
+
+.shipping_menu .item {
+  color: gray;
+  display: inline-block;
 }
