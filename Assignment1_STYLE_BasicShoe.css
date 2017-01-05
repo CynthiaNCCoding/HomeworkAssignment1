@@ -12,3 +12,23 @@
 body {
   font-family: sans-serif;
 }
+
+.Men {
+  display: inline-block;
+}
+
+.Women {
+  display: inline-block;
+}
+
+.Boys {
+  display: inline-block;
+}
+
+.Girls {
+  display: inline-block;
+}
+
+.Customize {
+  display: inline-block;
+}
