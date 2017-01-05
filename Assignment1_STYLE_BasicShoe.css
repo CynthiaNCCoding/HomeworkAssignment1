@@ -7,27 +7,34 @@
 
 .Orange_Block h2 {
   color: white;
-  font-weight: lighter;
-  font-size: 35px;
+  font-weight: normal;
+  font-size: 50px;
   margin-bottom: 5px
 }
 
 .Orange_Block_Content {
   color: white;
-  border-top: 3px dashed red;
-  border-bottom: 3px dashed red;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  border-top: 3px dashed #e63900;
+  border-bottom: 3px dashed #e63900;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 20px;
   width: 800px;
 }
 
+
+.black_shoe {
+  width: 800px;
+
+}
 .SPRING_SUMMER {
-  color: red;
+  color: rgb(153, 31, 0);
 }
 
 
 .BuyNowButton {
-    color: orange;
+    color: rgb(153, 31, 0);
     background-color: white;
     display: inline-block;
     font-size: 36px;
@@ -40,12 +47,12 @@
 
 .Read_Reviews {
   display: inline-block;
-  color: red;
+  color: brown;
 }
 
 .price {
     color: white;
-    height: 30px;
+    height: 35px;
     display: inline-block;
     font-size: 20px;
 }
@@ -61,60 +68,55 @@ body {
   font-family: sans-serif;
 }
 
-.menu {
+.gender_menu {
   margin-bottom: 10px;
 }
 
-.menu .item {
+.gender_menu .item {
   display: inline-block;
   font-weight: bold;
-  color: orange;
+  color: rgb(250, 81, 43);
   text-transform: uppercase;
   margin-left: 8px;
   margin-right: 8px;
   padding-bottom: 8px;
 }
 
-.menu .item.selected {
-  color: brown;
+.gender_menu .item.selected {
+  color: rgb(153, 31, 0);
   border-bottom: 5px solid pink;
 }
 
 
 .Logo {
-  width: 80px;
+  width: 70px;
 }
 
-.Help {
+.account_menu .item {
   display: inline-block;
   font-weight: bold;
-  color: pink;
+  color: rgb(255, 153, 153);
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  vertical-align: text-top;
+
 }
 
-.My_Account {
-  display: inline-block;
-  font-weight: bold;
-  color: pink;
-}
 
-.Cart_Logo {
-  display: inline-block;
-  font-weight: bold;
-  color: pink;
-}
-
-.Shopping_Cart {
-  display: inline-block;
-  font-weight: bold;
-  color: pink;
-}
 
 .Back_Button {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 300px;
   padding-top: 100px;
   padding-bottom: 1000px;
+  text-decoration: none;
+}
+.sneaker_names {
+    color: white;
+    font-size: 35px;
 }
