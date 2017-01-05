@@ -1,6 +1,7 @@
 .Orange_Block {
     background: orange ;
     width: 1000px;
+    padding-left: 200px
 }
 
 .Orange_Block h2 {
@@ -15,20 +16,68 @@ body {
 
 .Men {
   display: inline-block;
+  font-weight: bold;
+  color: orange;
+  text-transform: uppercase;
 }
 
 .Women {
   display: inline-block;
+  font-weight: bold;
+  color: orange;
+  text-transform: uppercase;
 }
 
 .Boys {
   display: inline-block;
+  font-weight: bold;
+  color: orange;
+  text-transform: uppercase;
 }
 
 .Girls {
   display: inline-block;
+  font-weight: bold;
+  color: orange;
+  text-transform: uppercase;
 }
 
 .Customize {
   display: inline-block;
+  font-weight: bold;
+  color: orange;
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 10px;
+}
+
+.Help {
+  display: inline-block;
+  font-weight: bold;
+  color: pink;
+}
+
+.My_Account {
+  display: inline-block;
+  font-weight: bold;
+  color: pink;
+}
+
+.Cart_Logo {
+  display: inline-block;
+  font-weight: bold;
+  color: pink;
+}
+
+.Shopping_Cart {
+  display: inline-block;
+  font-weight: bold;
+  color: pink;
+}
+
+.Back_Button {
+  color: white;
+  font-weight: bold;
 }
