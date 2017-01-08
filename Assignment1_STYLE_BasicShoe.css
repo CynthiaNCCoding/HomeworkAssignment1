@@ -65,6 +65,9 @@
 
 }
 
+.stars {
+  color: rgb(255, 153, 153);
+}
 
 body {
   font-family: sans-serif;
@@ -119,6 +122,7 @@ body {
   padding-top: 100px;
   padding-bottom: 1000px;
   text-decoration: none;
+
 }
 .sneaker_names {
     color: white;
