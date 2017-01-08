@@ -62,12 +62,8 @@
 .price .small {
   font-size: 12px;
   vertical-align: text-top;
-
 }
 
-.stars {
-  color: rgb(255, 153, 153);
-}
 
 body {
   font-family: sans-serif;
@@ -92,6 +88,61 @@ body {
   border-bottom: 5px solid pink;
 }
 
+.product_details_menu {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 400px;
+    border-bottom: 1px solid pink;
+}
+
+
+.details {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(250, 81, 43);
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.details .selected {
+  color: rgb(153, 31, 0);
+  border-bottom: 5px solid pink;
+}
+
+.sizeFit {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(250, 81, 43);
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.sizeFit.selected {
+  color: rgb(153, 31, 0);
+  border-bottom: 5px solid pink;
+}
+
+
+.reviews {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(255, 153, 153);
+  text-decoration: none;
+  margin-left: 800px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.reviews.selected {
+  color: rgb(153, 31, 0);
+  border-bottom: 5px solid pink;
+}
 
 .Logo {
   width: 70px;
@@ -108,7 +159,6 @@ body {
   margin-bottom: 10px;
   padding-bottom: 8px;
   vertical-align: text-top;
-
 }
 
 
