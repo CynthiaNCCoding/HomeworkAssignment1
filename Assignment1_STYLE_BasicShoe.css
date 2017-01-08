@@ -1,3 +1,7 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 .Orange_Block {
     background: rgb(250, 81, 43);
     width: 1000px;
@@ -23,6 +27,16 @@
   margin-top: 45px;
   margin-bottom: 20px;
   width: 800px;
+}
+
+.Orange_Block_2 {
+    background: rgb(250, 81, 43);
+    width: 1500px;
+  }
+
+.Orange_Block_2 .item {
+  display: inline-block;
+
 }
 
 
@@ -64,12 +78,8 @@
   vertical-align: text-top;
 }
 
-
-body {
-  font-family: sans-serif;
-}
-
 .gender_menu {
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 
@@ -78,6 +88,7 @@ body {
   font-weight: bold;
   color: rgb(250, 81, 43);
   text-transform: uppercase;
+  text-decoration: none;
   margin-left: 8px;
   margin-right: 8px;
   padding-bottom: 8px;
@@ -86,6 +97,10 @@ body {
 .gender_menu .item.selected {
   color: rgb(153, 31, 0);
   border-bottom: 5px solid pink;
+}
+
+.gender_menu .item:hover {
+  color: blue;
 }
 
 .product_details_menu {
@@ -123,7 +138,7 @@ body {
   text-align: left;
 }
 
-.sizeFit.selected {
+.sizeFit .selected {
   color: rgb(153, 31, 0);
   border-bottom: 5px solid pink;
 }
@@ -174,6 +189,25 @@ body {
   text-decoration: none;
 
 }
+
+/* 3 sneaker images */
+
+  .orangeBlueSneaker {
+    width: 300px;
+    display: inline-block;
+  }
+
+  .blackRedSneaker {
+    width: 300px;
+    display: inline-block;
+  }
+
+  .bluewhiteSneaker  {
+    width: 300px;
+    display: inline-block;
+  }
+
+
 .sneaker_names {
     color: white;
     font-size: 35px;
