@@ -3,11 +3,18 @@ body {
 }
 
 .Orange_Block {
-    background: rgb(250, 81, 43);
-    width: 1000px;
-    padding-left: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#df1d74+0,fa433b+73,fa433b+100 */
+  background: rgb(223,29,116); /* Old browsers */
+  background: -moz-linear-gradient(left,  rgba(223,29,116,1) 0%, rgba(250,67,59,1) 73%, rgba(250,67,59,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(223,29,116,1) 0%,rgba(250,67,59,1) 73%,rgba(250,67,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(223,29,116,1) 0%,rgba(250,67,59,1) 73%,rgba(250,67,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df1d74', endColorstr='#fa433b',GradientType=1 ); /* IE6-9 */
+
+
+  width: 1000px;
+  padding-left: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
 }
 
@@ -30,12 +37,22 @@ body {
 }
 
 .Orange_Block_2 {
-    background: rgb(250, 81, 43);
-    width: 1500px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#df1d74+0,fa433b+73,fa433b+100 */
+    background: rgb(223,29,116); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(223,29,116,1) 0%, rgba(250,67,59,1) 73%, rgba(250,67,59,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  rgba(223,29,116,1) 0%,rgba(250,67,59,1) 73%,rgba(250,67,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  rgba(223,29,116,1) 0%,rgba(250,67,59,1) 73%,rgba(250,67,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#df1d74', endColorstr='#fa433b',GradientType=1 ); /* IE6-9 */
+
+    width: 1600px;
   }
 
 .Orange_Block_2 .item {
   display: inline-block;
+  margin-left: 10px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
 }
 
@@ -68,14 +85,16 @@ body {
 
 .price {
     color: white;
-    height: 35px;
-    display: inline-block;
+    height: 60px;
+    line-height: 40px;
+    display: flex;
+    vertical-align: text-top;
     font-size: 32px;
 }
 
 .price .small {
   font-size: 12px;
-  vertical-align: text-top;
+  display: flex;
 }
 
 .gender_menu {
